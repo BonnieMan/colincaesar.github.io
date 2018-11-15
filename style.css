@@ -1,0 +1,74 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: Bold;
+	 background-image: url("header.jpg");
+	 background-width=1630px;
+	 background-size: cover;
+	 background-repeat: no-repeat;	 
+	 background-position: center;  
+}
+.landing {	
+	display: flex;
+	flex-wrap: wrap;	
+	flex-direction: column;	
+	justify-content: center;	
+	align-items: center;		
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: Bold	
+	text-overflow: none;	
+}
+body.landing {	
+/*	display: flex;
+	flex-wrap: nowrap;	
+	flex-direction: column;
+	justify-content: space-around;*/	
+	vertical-align:middle;
+	justify-content: space-around;
+	margin-top: -20px;
+	/*align-items: center;*/
+
+}
+/*body.landing {	
+	 background-image: url("header.jpg");
+	 background-width=1630px;
+	 background-size: cover;
+	 background-repeat: no-repeat;	 
+	 background-position: center;
+}*/
+div.landing {
+	display: inline-block;	
+	font-size: 2em;	
+	text-align: center;	
+	/*margin-bottom: 190px;	*/
+}
+div input.landing {
+	left: 400px;
+	/*margin-bottom: 205px;*/
+	background-color: #ee6611;
+	width: 200px; 
+	height: 55px;
+	border-radius: 35px; 
+	border-width: 0px;	
+	transform: all;
+	transition: 250ms;		
+	display: flex;
+	justify-content: center;
+	font-size: 0.5em;	
+	font-weight: Bold;
+	margin-top: 8px;	
+	margin-bottom: -35px;
+} 	
+button.landing:hover {
+	background-color: #ff4411;
+	transform: all;
+	transition: 250ms;
+	transform: scale(1.05);
+} 
+
+
